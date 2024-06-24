@@ -1,4 +1,8 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
+
+// PPR (Partial Prerendering): experimental phase
+//Next.js will know which parts of your route are static and which are dynamic.
+export const experimental_ppr = true; 
  
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
