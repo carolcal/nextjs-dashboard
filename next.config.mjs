@@ -2,8 +2,13 @@
 
 const nextConfig = {
     experimental: {
-        ppr: 'incremental',
-      },
-};
+      serverActions: true, // Habilita o suporte a Server Actions,
+      appDir: true,
+    },
+  };
+  
+  export default nextConfig;
+  
 
-export default nextConfig;
+
+
